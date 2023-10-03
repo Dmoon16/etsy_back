@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const mysql = require("mysql2/promise");
 const axios = require("axios");
-const PORT = 4000;
+const PORT = 8000;
 
 const { v4: uuidv4 } = require("uuid");
 
