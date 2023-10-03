@@ -55,7 +55,7 @@ app.post("/save", (req, res) => {
 		});
 });
 
-app.listen(PORT, function () {
+app.listen(PORT, '0.0.0.0', function () {
 	console.log("Server is running on Port: " + PORT);
 
 	const clientSignature = createClientSignature();
